@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-243.25659.59">
+    <data-source name="schools@localhost" uuid="2a645e33-ba18-4a57-9317-d41589005e8e">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>pgpass</auth-provider>
+      <schema-mapping />
+    </data-source>
+    <data-source name="postgres@localhost" uuid="ae4082e8-3ccd-4788-ab7e-16c5b040fcec">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>pgpass</auth-provider>
+      <schema-mapping />
+    </data-source>
+    <data-source name="students@localhost" uuid="848824e8-e232-410c-bdc9-59d52623783d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>pgpass</auth-provider>
+      <schema-mapping />
+    </data-source>
+    <data-source name="postgres@localhost" uuid="21f66891-cca6-47a2-beba-6bb3a3f467d5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>pgpass</auth-provider>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
