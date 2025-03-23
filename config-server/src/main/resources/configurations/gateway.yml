@@ -18,3 +18,7 @@ server:
           uri: http://localhost:8070
           predicates:
             - Path=/api/v1/schools/**
+        - id: enrollment
+          uri: http://localhost:8060
+
+

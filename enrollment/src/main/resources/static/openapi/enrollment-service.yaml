@@ -1,0 +1,94 @@
+openapi: 3.0.1
+info:
+  title: Enrollment Service API
+  description: API for managing student enrollments
+  version: "1.0"
+servers:
+  - url: http://localhost:8083  # Enrollment Service port
+paths:
+  /enrollments:
+    post:
+      summary: Enroll a student in a school
+      operationId: enrollStudent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EnrollmentRequest"
+      responses:
+        "201":
+          description: Enrollment created successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Enrollment"
+    get:
+      summary: Get all enrollments
+      operationId: getAllEnrollments
+      responses:
+        "200":
+          description: List of enrollments
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Enrollment"
+  /enrollments/{id}:
+    get:
+      summary: Get enrollment by ID
+      operationId: getEnrollmentById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Enrollment details
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Enrollment"
+  /enrollments/students/{studentId}:
+    get:
+      summary: Get enrollments for a specific student
+      operationId: getEnrollmentsByStudent
+      parameters:
+        - name: studentId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: List of student enrollments
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Enrollment"
+components:
+  schemas:
+    EnrollmentRequest:
+      type: object
+      properties:
+        studentId:
+          type: integer
+        schoolId:
+          type: integer
+    Enrollment:
+      type: object
+      properties:
+        id:
+          type: integer
+        studentId:
+          type: integer
+        schoolId:
+          type: integer
+        enrollmentDate:
+          type: string
+          format: date

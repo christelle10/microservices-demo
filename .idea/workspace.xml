@@ -5,31 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2156b6-9d56-43c1-9cad-251c77398d50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/microservices-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/enrollment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/main/java/com/microservices/school/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enrollment/src/main/resources/static/openapi/enrollment-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/enrollment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/enrollment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/schools.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/schools.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/students.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/students.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/school/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/students/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/students/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/students/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/students/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/students/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/students/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/java/com/microservices/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/students/src/main/java/com/microservices/students/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/java/com/microservices/student/StudentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/students/src/main/java/com/microservices/students/StudentsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/java/com/microservices/student/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/students/src/main/java/com/microservices/students/StudentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/java/com/microservices/student/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/students/src/main/java/com/microservices/students/StudentsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/java/com/microservices/student/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/students/src/main/java/com/microservices/students/StudentsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/students/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/test/java/com/microservices/student/StudentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/students/src/test/java/com/microservices/student/StudentApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enrollment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/enrollment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enrollment/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/enrollment/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +63,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.DiscoveryApplication.executor": "Run",
+    "Spring Boot.EnrollmentApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.SchoolApplication.executor": "Run",
     "Spring Boot.StudentApplication (1).executor": "Run",
@@ -92,7 +77,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
@@ -130,20 +115,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SchoolApplication">
-    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.microservices.gateway.GatewayApplication" />
-      <module name="gateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.microservices.gateway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.EnrollmentApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.configserver.ConfigServerApplication" />
@@ -154,6 +126,19 @@
     <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="discovery" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.discovery.DiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnrollmentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="enrollment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.enrollment.EnrollmentApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservices.enrollment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,10 +203,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GatewayApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.DiscoveryApplication" />
+      <item itemvalue="Spring Boot.EnrollmentApplication" />
       <item itemvalue="Spring Boot.StudentApplication (1)" />
       <item itemvalue="Spring Boot.StudentsApplication" />
       <item itemvalue="Spring Boot.SchoolApplication" />
@@ -229,11 +214,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EnrollmentApplication" />
         <item itemvalue="Spring Boot.SchoolApplication" />
         <item itemvalue="Spring Boot.StudentsApplication" />
         <item itemvalue="Spring Boot.StudentApplication (1)" />
         <item itemvalue="Spring Boot.StudentApplication" />
-        <item itemvalue="Application.GatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +245,7 @@
       <workItem from="1742429771900" duration="12856000" />
       <workItem from="1742442861865" duration="9254000" />
       <workItem from="1742703138360" duration="64000" />
-      <workItem from="1742711184217" duration="5605000" />
+      <workItem from="1742711184217" duration="11456000" />
     </task>
     <servers />
   </component>
@@ -274,6 +259,11 @@
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/enrollment/src/main/java/com/microservices/enrollment/EnrollmentApplication.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

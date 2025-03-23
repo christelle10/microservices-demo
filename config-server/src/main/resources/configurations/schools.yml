@@ -20,6 +20,8 @@ spring:
       ddl-auto: update
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+  liquibase:
+    enabled: true
 
 application:
   config:

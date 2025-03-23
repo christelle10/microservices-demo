@@ -1,6 +1,5 @@
 spring:
   application:
     name: enrollment
-
   config:
     import: optional:configserver:http://localhost:8888

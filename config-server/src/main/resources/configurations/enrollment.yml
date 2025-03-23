@@ -15,10 +15,15 @@ spring:
     url: jdbc:postgresql://localhost:5432/enrollment
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
-
-
   jpa:
     hibernate:
       ddl-auto: update
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+  liquibase:
+    enabled: false
+
+springdoc:
+  swagger-ui:
+    url: /openapi/enrollment-service.yaml
+    path: /swagger-ui.html

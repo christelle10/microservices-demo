@@ -10,6 +10,7 @@
         <module name="config-server" />
         <module name="discovery" />
         <module name="gateway" />
+        <module name="enrollment" />
       </profile>
       <profile name="Annotation profile for enrollment" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -20,7 +21,6 @@
         </processorPath>
         <module name="school" />
         <module name="students" />
-        <module name="enrollment" />
       </profile>
     </annotationProcessing>
   </component>
