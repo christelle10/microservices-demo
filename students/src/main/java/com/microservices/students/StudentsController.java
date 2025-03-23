@@ -1,4 +1,4 @@
-package com.microservices.student;
+package com.microservices.students;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -9,23 +9,23 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/students")
 @RequiredArgsConstructor
-public class StudentController {
+public class StudentsController {
 
-    private final StudentService studentService;
+    private final com.microservices.students.StudentsService studentService;
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void save(@RequestBody Student student) {
+    public void save(@RequestBody Students student) {
         studentService.saveStudent(student);
     }
 
     @GetMapping
-    public ResponseEntity<List<Student>> findAllStudents() {
+    public ResponseEntity<List<Students>> findAllStudents() {
         return ResponseEntity.ok(studentService.findAllStudents());
     }
 
     @GetMapping("/school/{school-id}")
-    public ResponseEntity<List<Student>> findAllStudents(
+    public ResponseEntity<List<Students>> findAllStudents(
             @PathVariable("school-id") Integer schoolId
     ) {
         return ResponseEntity.ok(studentService.findAllStudentsBySchool(schoolId));

@@ -1,4 +1,4 @@
-package com.microservices.student;
+package com.microservices.students;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GenerationType;
@@ -14,7 +14,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Student {
+public class Students {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

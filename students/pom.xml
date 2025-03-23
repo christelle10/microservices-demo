@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.microservices</groupId>
-	<artifactId>student</artifactId>
+	<artifactId>students</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>student</name>
 	<description>Demo project for Spring Boot MicroServices</description>
@@ -55,7 +55,6 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
